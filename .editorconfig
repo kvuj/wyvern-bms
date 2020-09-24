@@ -1,0 +1,12 @@
+root = true
+
+# 4 space indentation
+[*.cpp]
+indent_style = space
+indent_size = 4
+
+# 4 space indentation
+[*.hpp]
+indent_style = space
+indent_size = 4
+
