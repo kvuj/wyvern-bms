@@ -2,7 +2,7 @@
 #define BMSMAP
 
 #include <string>
-#include <sys/stat.h>>
+#include <filesystem>
 
 class bmsMap {
 private:
@@ -14,10 +14,11 @@ public:
 	}
 
 	~bmsMap() {
+	    delete filename;
 	}
 
 	void loadNewMap() {
-        if() {
+        if(std::filesystem::exists(*filename) {
 
         }
 	}

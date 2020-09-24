@@ -1,8 +1,8 @@
 CC := g++
-CFLAGS := -I -O3 -std=c++17 -lSDL2
+CFLAGS := -O3 -std=c++17 -lSDL2
 
 CXX := $(CC)
 CXXFLAGS := $(CFLAGS)
 
 wyvern: main.cpp
-	$(CC) -o output main.cpp $(CFLAGS)
+	$(CC) -o output main.cpp bmsmap.hpp $(CFLAGS)
